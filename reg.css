@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: tahoma;
+}
+body{
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:white;
+}
+.wrapper{
+  position: relative;
+  max-width: 350px;
+  width: 100%;
+  background:white;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 7px;
+  box-shadow: 2px 5px 8px;
+}
+.wrapper h2{
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+    color: #f9e45b;
+}
+.wrapper h2::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  border-radius: 12px;
+  background:#f9e45b;
+}
+.wrapper form{
+  margin-top: 30px;
+}
+.wrapper form .input-box{
+  height: 52px;
+  margin: 18px 0;
+}
+form .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color:blue;
+  border: 2px solid #f9e45b;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+}
+.input-box input:focus,
+.input-box input:valid{
+  border-color: #f9e45b;
+}
+form .policy{
+  display: flex;
+  align-items: center;
+}
+form h3{
+  color: blue;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.input-box.button input{
+  color: blue;
+  letter-spacing: 1px;
+  border: none;
+  background: #f9e45b;
+  cursor: pointer;
+}
+.input-box.button input:hover{
+  background:#f9e45b;
+
+}
+form .text h3{
+ color: #333;
+ width: 100%;
+ text-align: center;
+}
+form .text h3 a{
+  color: blue;
+  text-decoration: none;
+}
+form .text h3 a:hover{
+  text-decoration: underline;
+}

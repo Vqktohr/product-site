@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: tahoma;
+}
+
+.land{
+    align-items: top;
+}
+
+button{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    box-shadow:1px 3px 5px;
+    margin-top: 100PX;
+    margin-bottom: 10px;
+}
+
+a{
+    color: #f9e45b;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.tes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.go{
+    width: 290px;
+    height: 300px;
+    margin: 20px;
+    padding: 15px;
+    background: #ffff;
+    box-shadow: 2px 4px 6px;
+}
+
+.go img{
+    border-radius: 50%;
+    width: 100px;
+    height: 110px;
+    margin-top: 55px;
+    margin-bottom: 15px;
+}
+
+.go P{
+    font-size: medium;
+    padding-top: 15px;
+}
+

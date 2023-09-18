@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+        text-align: center;
+        background: blue; 
+        height: 80px;
+        color: white;
+        font-size: 30px;
+        font-family: tamoha;
+        padding-top: 35px;
+}
+
+.product{
+    background: white;
+}
+
+.cart{
+    width: 100px;
+    padding-right: 10px;
+}
+
+.box{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.try{
+    border: 2px solid seagreen;
+    width: 200%;
+    margin: 10px;
+    padding: 10px;
+    background: white;
+}
+
+.but{
+    padding: 5px;
+    margin-left: 10px;
+    border: 2px solid blue;
+    color: black;
+}
+
+.price{
+    margin-left: 110px;
+    font-family: arial;
+    font-style: oblique;
+    color: black;
+}
+
+.pic{
+    margin-left: 17%;
+}
+
+.name{
+    text-align: center;
+    font-size: large;
+}
+
+.star{
+    text-align: center;
+    margin-top: 7px;
+    font-size: 14px;
+}
+
+.sym{
+    text-align: center;  
+    margin-top: 4px;
+    font-size: 20px;
+}
+
+.footer{
+    text-align: center;
+    background: blue; 
+    height: 50%;
+    color: white;
+    font-size: 15px;
+    padding-top: 50px;
+}
